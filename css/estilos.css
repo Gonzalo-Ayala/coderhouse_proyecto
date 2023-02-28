@@ -6,42 +6,44 @@
 body{
     background-color:#8de0a6;
     font-family: Arial, Helvetica, sans-serif;
-    width:100%;
+
 }
+
 
 header{
     background-color:#4eb3de;
-    display: flex;
 }
 
+nav li:hover {
+    background-color: white;
+}
 
-.div_logo{
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom:10px;
+button:hover {
+    color:#4eb3de ;
+}
+
+.icono {
+    display: flex;
 }
 
 .img_icono{
     height:40px;
     margin-left:30px;
+    padding-top: 10px;
 }
 
+.img_producto {
+    height: 300px;
+    padding-top: 50px;
+}
+
+.img_principal {
+    width: 400px;
+}
 
 li img{
     height:15px;
     width:15px;;
-}
-
-nav li{
-    display:inline;
-}
-
-nav {
-   font-weight: bold;
-   text-align:center;
-   color: black;
-   padding-bottom:15px;
-   margin-left:608px;
 }
 
 a{
@@ -54,16 +56,11 @@ main {
     margin-top:20px;
     text-align: center;
     padding: 5px;
+    min-height: 445px;
 }
 
 span {
     font-weight: bold;
-}
-
-p{
-    margin: 5px;
-    padding:10px;
-    font-size:15px;
 }
 
 p a {
@@ -75,8 +72,8 @@ p a {
 .pie_de_pagina{
       background-color:#4eb3de;
       font-weight: bold;
-      padding: 10px;
-      margin-top: 10px;
+      text-transform: capitalize;
+      padding: 2px;
 } 
 
 .class_h1 {
@@ -86,11 +83,30 @@ p a {
 
 .class_h2 {
     font-size:20px;
+    padding-top: 20px;
+}
+
+.elegir_producto{
+    margin-top: 100px;
+}
+
+.textos{
+    padding-top: 80px;
+}
+
+.be_kind {
+    padding-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
 }
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
 
 
 
@@ -100,33 +116,18 @@ p a {
 
     header {  
         background-color:#8de0a6;
-        width: 777px;
     }
 
-    nav {
-        margin-left: 550px;
+    nav li:hover {
+        background-color: white;
+    }
+
+    .nav_responsive {
+        padding-left:200px;
     }
 
     .pie_de_pagina{
       background-color:#8de0a6;
-      width: 777px;
-    }
-
-    .cuerpo_uno {
-        grid-area: cuerpo_uno;
-    }
-    .cuerpo_dos {
-        grid-area: cuerpo_dos;
-        padding-left: 600px;
-        padding-top: 135px;
-    }
-    .contenido {
-        padding-top: 150px;
-        padding-bottom: 150px;
-        width: 750px;
-        display: grid;
-        grid-template-areas: "area-cuerpo_uno area-cuerpo_dos";
-        grid-template-columns: 1fr 1fr;
     }
 
 }
