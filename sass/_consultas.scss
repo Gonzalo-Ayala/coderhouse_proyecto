@@ -1,0 +1,8 @@
+@use 'variables';
+
+.form_consultas{
+	display: flex;
+	flex-direction: column;
+	margin-top: variables.$tamano;
+}
+

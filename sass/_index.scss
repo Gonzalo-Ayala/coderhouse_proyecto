@@ -1,0 +1,44 @@
+@use 'variables';
+
+
+.img_principal {
+    width: variables.$tamano * 40;
+}
+
+li {
+      img{
+
+        height: variables.$tamano + 5;
+        width:variables.$tamano + 5;
+
+   }
+}
+
+
+span {
+    font-weight: bold;
+}
+
+p {
+    a {
+        color: variables.$color3;
+        font-weight: bold;
+        font-size: variables.$tamano + 5;
+        text-decoration: none;
+    }
+}
+
+.lista_contactos{
+    list-style:none;
+}
+
+.class_h1 {
+    padding: variables.$tamano - 5;
+    font-size: variables.$tamano * 2 + 5;
+}
+
+.class_h2 {
+    font-size:variables.$tamano * 2;
+    padding-top: variables.$tamano * 2;
+}
+

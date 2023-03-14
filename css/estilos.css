@@ -1,133 +1,166 @@
-*{
-    margin:0;
-    padding:0;
-}
-
-body{
-    background-color:#8de0a6;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-
-
-header{
-    background-color:#4eb3de;
-}
-
-nav li:hover {
-    background-color: white;
-}
-
-button:hover {
-    color:#4eb3de ;
-}
-
-.icono {
-    display: flex;
-}
-
-.img_icono{
-    height:40px;
-    margin-left:30px;
-    padding-top: 10px;
-}
-
-.img_producto {
-    height: 300px;
-    padding-top: 50px;
-}
-
 .img_principal {
-    width: 400px;
+  width: 400px;
 }
 
-li img{
-    height:15px;
-    width:15px;;
-}
-
-a{
-    color: black;
-    font-weight: bold;
-    font-size:20px;
-}
-
-main {
-    margin-top:20px;
-    text-align: center;
-    padding: 5px;
-    min-height: 445px;
+li img {
+  height: 15px;
+  width: 15px;
 }
 
 span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 p a {
-    font-weight: bold;
-    font-size: 15px;
-    text-decoration: none;
+  color: rgb(201, 215, 207);
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: none;
 }
 
-.pie_de_pagina{
-      background-color:#4eb3de;
-      font-weight: bold;
-      text-transform: capitalize;
-      padding: 2px;
-} 
+.lista_contactos {
+  list-style: none;
+}
 
 .class_h1 {
-    padding: 5px;
-    font-size: 25px;
+  padding: 5px;
+  font-size: 25px;
 }
 
 .class_h2 {
-    font-size:20px;
-    padding-top: 20px;
+  font-size: 20px;
+  padding-top: 20px;
 }
 
-.elegir_producto{
-    margin-top: 100px;
+.textos_q_somos {
+  padding-top: 80px;
 }
 
-.textos{
-    padding-top: 80px;
+.img_producto {
+  height: 300px;
+  padding-top: 50px;
+}
+
+.elegir_producto {
+  margin-top: 100px;
+}
+
+.form_productos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.form_productos select {
+  margin-top: 5px;
+}
+.form_productos button {
+  margin-top: 5px;
+}
+
+.div_blanco {
+  background-color: #f9f9f9;
+  margin-bottom: 5px;
+}
+
+.div_negro {
+  background-color: #080808;
+  margin-bottom: 5px;
+}
+
+.div_azul {
+  background-color: #03396C;
+  margin-bottom: 5px;
+}
+
+.div_naranja {
+  background-color: #FFB11B;
+  margin-bottom: 5px;
+}
+
+.titulo_h2 {
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.textos_devolucion {
+  padding-top: 80px;
+}
+
+.form_consultas {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(circle, rgba(51, 49, 49, 0.9333858543) 0%, rgb(24, 147, 119) 0%, rgb(11, 222, 174) 0%, rgb(24, 147, 119) 100%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: radial-gradient(circle, rgba(41, 37, 37, 0.9333858543) 0%, rgb(57, 171, 133) 0%, rgb(8, 123, 120) 100%);
+}
+
+nav li:hover {
+  background-color: rgb(201, 215, 207);
+  transition: background-color 2s;
+}
+
+button:hover {
+  color: #e30052;
+}
+
+main {
+  margin-top: 20px;
+  text-align: center;
+  padding: 5px;
+  min-height: 450px;
+}
+
+.pie_de_pagina {
+  background: radial-gradient(circle, rgba(41, 37, 37, 0.9333858543) 0%, rgb(57, 171, 133) 0%, rgb(8, 123, 120) 100%);
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 10px px/5px;
 }
 
 .be_kind {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
+.icono {
+  display: flex;
 }
 
-
+.img_icono {
+  height: 50px;
+  margin-left: 30px;
+  padding-top: 10px;
+}
 
 @media only screen and (max-width: 992px) {
-
-
-
-    body {
-        background-color:#4eb3de;
-    }
-
-    header {  
-        background-color:#8de0a6;
-    }
-
-    nav li:hover {
-        background-color: white;
-    }
-
-    .nav_responsive {
-        padding-left:200px;
-    }
-
-    .pie_de_pagina{
-      background-color:#8de0a6;
-    }
-
+  body {
+    background: radial-gradient(circle, rgba(41, 37, 37, 0.9333858543) 0%, rgb(57, 171, 133) 0%, rgb(8, 123, 120) 100%);
+  }
+  header {
+    background: radial-gradient(circle, rgba(51, 49, 49, 0.9333858543) 0%, rgb(24, 147, 119) 0%, rgb(11, 222, 174) 0%, rgb(24, 147, 119) 100%);
+  }
+  nav li:hover {
+    background-color: #e30052;
+    transition: background-color 2s;
+  }
+  .nav_responsive {
+    padding-left: 200px;
+  }
+  .pie_de_pagina {
+    background: radial-gradient(circle, rgba(51, 49, 49, 0.9333858543) 0%, rgb(24, 147, 119) 0%, rgb(11, 222, 174) 0%, rgb(24, 147, 119) 100%);
+  }
 }
+
+/*# sourceMappingURL=estilos.css.map */

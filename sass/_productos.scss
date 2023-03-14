@@ -1,0 +1,52 @@
+@use 'variables';
+
+.img_producto {
+    height: variables.$tamano * 30;
+    padding-top: variables.$tamano * 5;
+}
+
+.elegir_producto {
+	margin-top: variables.$tamano * 10;
+}
+
+.form_productos {
+	display: flex;
+	flex-direction: column;
+	margin-top: variables.$tamano;
+    select {
+        margin-top:variables.$tamano - 5; 
+    } 
+    button {
+        margin-top:variables.$tamano - 5;
+    }
+}
+
+@mixin asignar_color ($color){
+    background-color: $color;
+}
+
+.div_blanco{
+      @include asignar_color(#f9f9f9);
+      margin-bottom: variables.$tamano - 5;
+}
+
+.div_negro{
+    @include asignar_color(#080808);
+    margin-bottom: variables.$tamano - 5;
+}
+
+.div_azul{
+    @include asignar_color(#03396C);
+    margin-bottom: variables.$tamano - 5;
+}
+
+.div_naranja{
+    @include asignar_color(#FFB11B);
+    margin-bottom: variables.$tamano - 5;
+}
+
+.titulo_h2 {
+  font-weight: bold;
+  font-size: variables.$tamano * 3;
+  padding-top: variables.$tamano * 2;
+}
