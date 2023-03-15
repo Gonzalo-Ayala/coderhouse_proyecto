@@ -155,9 +155,6 @@ main {
     background-color: #e30052;
     transition: background-color 2s;
   }
-  .nav_responsive {
-    padding-left: 200px;
-  }
   .pie_de_pagina {
     background: radial-gradient(circle, rgba(51, 49, 49, 0.9333858543) 0%, rgb(24, 147, 119) 0%, rgb(11, 222, 174) 0%, rgb(24, 147, 119) 100%);
   }
