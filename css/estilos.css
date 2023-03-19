@@ -1,6 +1,10 @@
 .img_principal {
   width: 400px;
 }
+.img_principal:hover {
+  transform: scale(1.1);
+  transition: all 3s;
+}
 
 li img {
   height: 15px;
@@ -25,24 +29,35 @@ p a {
 .class_h1 {
   padding: 5px;
   font-size: 25px;
+  font-weight: bold;
 }
 
 .class_h2 {
   font-size: 20px;
   padding-top: 20px;
+  font-weight: bold;
 }
 
 .textos_q_somos {
   padding-top: 80px;
+  text-align: center;
+}
+.textos_q_somos p {
+  text-align: justify;
+  margin-top: 10px;
 }
 
 .img_producto {
   height: 300px;
-  padding-top: 50px;
 }
 
 .elegir_producto {
   margin-top: 100px;
+}
+
+.titulo_h1 {
+  padding-top: 10px;
+  font-weight: bold;
 }
 
 .form_productos {
@@ -85,6 +100,7 @@ p a {
 
 .textos_devolucion {
   padding-top: 80px;
+  text-align: justify;
 }
 
 .form_consultas {
@@ -154,6 +170,12 @@ main {
   nav li:hover {
     background-color: #e30052;
     transition: background-color 2s;
+  }
+  .elegir_producto {
+    margin-top: 0px;
+  }
+  .textos_devolucion {
+    padding-top: 30px;
   }
   .pie_de_pagina {
     background: radial-gradient(circle, rgba(51, 49, 49, 0.9333858543) 0%, rgb(24, 147, 119) 0%, rgb(11, 222, 174) 0%, rgb(24, 147, 119) 100%);

@@ -2,11 +2,15 @@
 
 .img_producto {
     height: variables.$tamano * 30;
-    padding-top: variables.$tamano * 5;
 }
 
 .elegir_producto {
 	margin-top: variables.$tamano * 10;
+}
+
+.titulo_h1 {
+    padding-top: 10px;
+    font-weight: bold;
 }
 
 .form_productos {

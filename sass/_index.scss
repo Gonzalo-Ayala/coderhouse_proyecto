@@ -3,6 +3,10 @@
 
 .img_principal {
     width: variables.$tamano * 40;
+    &:hover {
+        transform: scale(1.1);
+        transition: all 3s;
+    }
 }
 
 li {
@@ -35,10 +39,12 @@ p {
 .class_h1 {
     padding: variables.$tamano - 5;
     font-size: variables.$tamano * 2 + 5;
+    font-weight: bold;
 }
 
 .class_h2 {
     font-size:variables.$tamano * 2;
     padding-top: variables.$tamano * 2;
+    font-weight: bold;
 }
 

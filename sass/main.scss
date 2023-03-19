@@ -86,6 +86,14 @@ main {
         }
     }
 
+    .elegir_producto {
+        margin-top: variables.$tamano - 10;
+    }
+
+    .textos_devolucion {
+        padding-top: variables.$tamano *3;
+    }
+
 
     .pie_de_pagina{
       background: variables.$color1;
