@@ -1,10 +1,32 @@
 @use 'variables';
 
 .textos_q_somos {
-	padding-top: variables.$tamano *8;
+	padding-top: variables.$tamano *2;
 	text-align: center;
 	p{
 		text-align: justify;
 		margin-top: 10px;
+	}
+}
+
+p {
+    a {
+        color: variables.$color3;
+        font-weight: bold;
+        font-size: variables.$tamano + 5;
+        text-decoration: none;
+    }
+}
+
+.img_local {
+	height: variables.$tamano*20;
+	width: variables.$tamano*30;
+	padding: 1em;
+	animation: move 3s ease-in-out infinite;
+}
+
+@keyframes move {
+	0% {
+		transform: translate(-10%,0);
 	}
 }

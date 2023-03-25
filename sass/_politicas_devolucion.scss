@@ -1,7 +1,22 @@
 @use 'variables';
 
 .textos_devolucion {
-	padding-top: variables.$tamano *8;
+	padding-top: variables.$tamano *2;
 	text-align: justify;
 }
 
+.img_dev{
+	height: variables.$tamano *20;
+    width: variables.$tamano *30;
+	padding: 1em;
+	animation:slide-fwd-right 7s cubic-bezier(.25,.46,.45,.94) infinite both;
+}
+
+@keyframes slide-fwd-right{
+	0%{
+		transform:translateZ(0) translateX(0);
+	}
+	100%{
+		transform:translateZ(160px) translateX(30px);
+	}
+	}
